@@ -1,8 +1,5 @@
 language: python
 
-install:
-sudo apt-get install -y python3-pip
-
 script:
 - coverage run -m unittest
 
